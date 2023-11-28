@@ -1,0 +1,19 @@
+.parent-box {
+  padding: 10px 0 0 0;
+}
+
+.box:nth-child(even) {
+  background-color: red;
+}
+
+.box {
+  display: none;
+  box-sizing: border-box;
+  width: 100px;
+  height: 100px;
+  background-color: blanchedalmond;
+  padding: 16px 42px;
+  border: 5px solid darkred;
+  border-radius: 5px;
+  margin: 20px 0 10px 0;
+}
