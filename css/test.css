@@ -2,17 +2,36 @@
   box-sizing: border-box;
 }
 
-.flex-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+.container {
+  position: relative;
+  padding: 20px;
+  border: 1px dotted black;
 }
 
-.item {
-  flex-basis: 100px;
+.parent {
+  position: relative;
+  padding: 20px;
+  border: 1px dotted black;
+}
+
+.red {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 150px;
+  height: 150px;
+  background-color: red;
+  opacity: 0.5;
+}
+
+.green {
+  width: 100px;
   height: 100px;
-  background-color: blanchedalmond;
-  padding: 16px 42px;
-  border: 5px solid darkred;
-  margin: 10px;
+  background-color: green;
+}
+
+.blue {
+  width: 50px;
+  height: 50px;
+  background-color: blue;
 }
